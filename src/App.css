@@ -159,3 +159,44 @@ footer {
   width: 150px; /* Ajuste conforme necessário */
   height: auto; /* Mantenha a proporção */
 }
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo img {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .menu {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .menu a {
+    margin: 10px 0;
+  }
+  .login-button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  aside {
+    margin-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+  .primary-heading {
+    font-size: 2rem;
+  }
+  .primary-text {
+    font-size: 1rem;
+  }
+  .imghome {
+    max-width: 100%;
+  }
+}
